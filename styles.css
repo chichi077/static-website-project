@@ -1,0 +1,128 @@
+/* import custom Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap");
+
+/* Reset browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* This ensures padding and borders are included in the element's total width and height */
+}
+
+/* Set root styles */
+html {
+    font-size: 16px;
+}
+
+/* Overall styles */
+body {
+    font-family: "Ubuntu", Verdana, sans-serif;
+}
+
+
+/* nav section */
+.nav {
+    display: block;
+    background-color: #edeced;
+    padding: 1rem 2rem;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fa643f;
+}
+
+header .menu>ul {
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 30px;
+}
+
+header .menu a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: #4c849b;
+}
+
+.menu a:hover {
+    color: #fa643f;
+}
+
+.menu a:active {
+    color: #badbf3;
+}
+
+#contact-item {
+    margin-right: 0px;
+}
+
+/* content section */
+
+.content {
+    display: block;
+    padding: 2rem 4rem;
+    /* height = vh - nav padding - logo font size - footer height */
+    height: calc(100vh - 2rem - 1.5rem - 200px);
+}
+
+.image {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+}
+
+.text-content {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 460px);
+    padding-left: 4rem;
+}
+
+.title-space {
+    margin-bottom: 0.75rem;
+}
+
+.line-space {
+    margin-bottom: 0.25rem;
+}
+
+button {
+    display: inline-block;
+    padding: 0.3rem 1.5rem;
+    background-color: #4c849b;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(229, 145, 0);
+    color: black;
+}
+
+/* footer section */
+.footer {
+    display: block;
+    min-height: 200px;
+    background-color: black;
+    padding: 1rem 2rem;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: calc(200px - 2rem - 1.5em);
+    color:#edeced;
+}

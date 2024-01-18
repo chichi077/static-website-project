@@ -1,2 +1,9 @@
-What is this project about? / A personal project that showcases how to build a responsive static website for a company/product/portfolio.
-Who is/are the author(s)? / CHO, TZU CHI / Evelyn
+Author
+Evelyn
+
+Description
+A personal project to showcase a static website for a coffee shop.
+
+Reference sources
+https://www.pradocafe.com/
+https://unsplash.com/

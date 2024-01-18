@@ -70,6 +70,7 @@ header .menu a {
     display: inline-block;
     vertical-align: top;
     padding-left: 4rem;
+    line-height: 1.5rem;
 }
 
 /* footer section */

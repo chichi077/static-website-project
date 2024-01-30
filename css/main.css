@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* This ensures padding and borders are included in the element's total width and height */
+    /* This ensures padding and ers are included in the element's total width and height */
 }
 
 /* Set root styles */
@@ -31,3 +31,8 @@ body {
     margin-bottom: 3rem;
   }
   
+/* pseudo-elements about::selection, When you highlight or select text on a web page, the color will change*/
+::selection {
+    color: #fa643f; 
+    background-color: lightskyblue ; 
+}

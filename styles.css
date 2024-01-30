@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* This ensures padding and borders are included in the element's total width and height */
+    /* This ensures padding and borders are included in the element's total width and height, so it won't go beyond the border  */
 }
 
 /* Set root styles */
@@ -101,7 +101,7 @@ button {
     display: inline-block;
     padding: 0.3rem 1.5rem;
     background-color: #4c849b;
-    border: none;
+    border: none; /*border is the outermost border of the element, a common element outline setting*/
     border-radius: 0.5rem;
     font-size: 1.25rem;
     color: white;

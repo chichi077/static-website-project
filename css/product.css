@@ -48,17 +48,6 @@ header .menu a {
 .menu a.current {
     color: lightskyblue;
 }
-
-header .content>h3 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-header .container {
-    display: flex;
-    padding-left: 2rem;
-}
-
 /* content section */
 
 .content {
@@ -69,17 +58,16 @@ header .container {
 
 .image {
     display: inline-block;
-    width: 370px;
-    height: 204px;
-    vertical-align: top;
-    padding-left: 0.5rem;
+    width: 350px;
+    height: 450px;
+    padding: 0.5rem;
 }
 
 .product {
     flex: 1;
     text-align: center;
     margin: 5px;
-    max-width: 400px;
+    max-width: 100%;
     display: flex;
     align-items: center;
 }
@@ -96,7 +84,7 @@ header .container {
     display: inline-block;
     background-color: #badbf3;
     padding: 0.75rem 0.25rem 0.75rem 0.25rem;
-    width: 90%;
+    width: 85%;
 }
 
 /* footer section */

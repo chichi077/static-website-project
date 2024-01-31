@@ -33,6 +33,6 @@ body {
   
 /* pseudo-elements about::selection, When you highlight or select text on a web page, the color will change*/
 ::selection {
-    color: #fa643f; 
-    background-color: lightskyblue ; 
+    color: #FFC98B; 
+    background-color: #4c849b ; 
 }

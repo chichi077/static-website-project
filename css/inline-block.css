@@ -59,11 +59,11 @@ header .menu a {
 }
 
 .image {
-    display: inline-block;
-    width: 370px;
-    height: 204px;
-    vertical-align: top;
-    padding-left: 4rem;
+    position: relative;
+    left: 7%;
+    transform: translate(5%, 5%);
+    max-width: 230px;
+    border-radius:5%
 }
 
 .text-content {
@@ -77,12 +77,12 @@ header .menu a {
 .footer {
     display: block;
     min-height: 200px;
-    background-color:  #edeced;
+    background-color: #edeced;
     padding: 1rem 2rem;
 }
 
 .footer p {
     text-align: center;
     margin-top: calc(200px - 2rem - 1.5em);
-    color:#4c849b;
+    color: #4c849b;
 }

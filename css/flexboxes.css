@@ -84,9 +84,9 @@ header .container {
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
 }
 
-.content .card>img{
-    width: 50px;
-    height: auto;
+.content .card>img.image{
+    max-width: 10px;
+    
 }
 
 

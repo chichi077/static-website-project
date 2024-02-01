@@ -60,33 +60,56 @@ header .container {
 }
 
 /* content section */
-
-.container{
-    width: 100%;
-    min-height: 100vh;
-    background-color: #badbf3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 90px;
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.content{
+h2 {
+    color: #333;
+}
+
+.locations-grid {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around; /* 調整兩側對齊 */
+}
+
+.location {
+    flex: 0 0 calc(50% - 20px); /* 設定寬度，每行顯示兩個，考慮間隔 */
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.content .card{
-    flex: 1;
-    margin: 20px 20px;
-    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+.location img {
+    max-height: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
-.content .card>img.image{
-    max-width: 10px;
-    
+
+/* footer section */
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #edeced;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: calc(200px - 2rem - 1.5em);
+    color: #4c849b;
 }
 
 
@@ -137,7 +160,7 @@ header .container {
   }*/
 
 
-/* footer section */
+/* footer section 
 .footer {
     bottom: 0;
     left: 0;
@@ -152,4 +175,4 @@ header .container {
     text-align: center;
     margin-top: calc(200px - 2rem - 1.5em);
     color: #4c849b;
-}
+}*/

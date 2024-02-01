@@ -50,13 +50,47 @@ header .menu a {
 }
 /* content section */
 
-.content {
+/*.content {
     display: block;
     padding: 2rem 2rem;
     overflow: auto;
+}*/
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product {
+    text-align: center;
+    margin: 5px;
+    max-width: 100%;
+}
+
+.product-info h4 {
+    text-align: center;
+    margin: 10px 0;
+    padding-left: 0.5rem;
+}
+
+.product-info > p {
+    display: inline-block;
+    background-color: #badbf3;
+    padding: 0.75rem;
+    width: 85%;
+}
+
+
+/*.image {
     display: inline-block;
     width: 350px;
     height: 450px;

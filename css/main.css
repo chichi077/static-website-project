@@ -6,7 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* This ensures padding and ers are included in the element's total width and height */
+     /* This ensures padding and ers are included in the element's total width and height */
+     font-family: "DM Serif Display", serif;
 }
 
 /* Set root styles */
@@ -16,7 +17,8 @@ html {
 
 /* Overall styles */
 body {
-    font-family: "Ubuntu", Verdana, sans-serif;
+   height: 100%;
+   width: 100%;
 }
 
 .title-space {

@@ -1,3 +1,8 @@
+:root {
+    --footer-backgroungcolor:#edeced;
+    --font-color:#4c849b;
+  }
+
 /*container*/
 
 .container {
@@ -78,28 +83,6 @@
     color: #badbf3;
 }
 
-@media(max-width:768px) {
-
-    .container {
-        height: 100vh;
-        width: 100%;
-    }
-
-    .nav {
-        width: 100%;
-        height: 15vh;
-        margin: auto;
-    }
-
-    .logo h1 {
-        font-size: 20px;
-    }
-
-    .topnav a{
-        padding: 5px;
-    }
-
-}
 
 
 /*home content sation*/
@@ -126,37 +109,33 @@
     font-size: 20px;
     margin: 0 4rem;
     color: #4c849b;
-
-
 }
 
-@media(max-width:768px) {
 
-    .content h2 {
-        display: flex;
-        justify-items: center;
-        align-items: center;
-        width: 20rem;
-        height: 15vh;
-        font-size: 40px;
-    }
-
-    .content p {
-        width: 20rem;
-        font-size: 15px;
-    }
-
+.location-icon {
+    position: fixed;
+    top: 50%; /* Set position, adjust as needed */
+    right: 20px; /* Adjust distance from the right */
+    transform: translateY(-50%); /* Center the icon vertically */
+    z-index: 1000; /* Set a higher z-index to ensure it is above other elements */
 }
+
+img {
+    width: 50px; /* Set image width to 50 pixels */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Apply a circular border-radius */
+}
+
 
 /* footer section */
 
 .footer {
     display: block;
-    background-color: #edeced;
+    background-color: var(--footer-backgroungcolor);
 }
 
 .footer p {
     text-align: center;
     padding: 2rem;
-    color: #4c849b;
+    color: var(--font-color);
 }

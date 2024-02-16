@@ -112,38 +112,6 @@ h3 {
     margin-top: 5px;
 }
 
-
-/*.image {
-    display: inline-block;
-    width: 350px;
-    height: 450px;
-    padding: 0.5rem;
-}
-
-.product {
-    flex: 1;
-    text-align: center;
-    margin: 5px;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.product-info h4 {
-    width: 100%;
-    text-align: center;
-    margin: 10px 0;
-    padding-left: 0.5rem;
-
-}
-
-.product-info>p{
-    display: inline-block;
-    background-color: #badbf3;
-    padding: 0.75rem 0.25rem 0.75rem 0.25rem;
-    width: 85%;
-}
-
 /* footer section */
 
 .footer {
